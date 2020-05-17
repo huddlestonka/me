@@ -1,6 +1,5 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -10,10 +9,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/[name].bundle.js'
-  },
-  devServer: {
-    publicPath: "/dist/", // here's the change
-    contentBase: path.join(__dirname, 'dist')
   },
   module: {
     rules: [{
@@ -36,9 +31,6 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'css/mystyles.css'
-    }),
-    new HtmlWebpackPlugin({
-      title: 'Output Management'
     })
   ]
 };
