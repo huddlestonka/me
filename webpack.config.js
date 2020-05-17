@@ -7,6 +7,10 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'js/bundle.js'
   },
+  devServer: {
+    publicPath: "/dist/", // here's the change
+    contentBase: path.join(__dirname, 'dist')
+  },
   module: {
     rules: [{
       test: /\.scss$/,
