@@ -1,6 +1,5 @@
 const turing = [
     '\"Sometimes it is the people no one can imagine anything of who do the things no one can imagine.\" - Alan Turing',
-    '\"One day ladies will take their computers for walks in the park and tell each other, \'My little computer said such a funny thing this morning.\'\" - Alan Turing',
     '\"Sometimes it\'s the very people who no one imagines anything of who do the things no one can imagine.\" - Alan Turing',
     '\"Those who can imagine anything, can create the impossible.\" - Alan Turing',
     '\"If a machine is expected to be infallible, it cannot also be intelligent.\" - Alan Turing'
@@ -22,7 +21,8 @@ const programming = [
 const predictions = [
     '\"The problem of viruses is temporary and will be solved in two years.\" - John McAfee, 1988',
     '\"In 2031, lawyers will be commonly a part of most development teams.\" - Grady Booch',
-    '\"I see little commercial potential for the Internet for at least ten years.\" - Bill Gates, 1994'
+    '\"I see little commercial potential for the Internet for at least ten years.\" - Bill Gates, 1994',
+    '\"Hardware eventually fails. Software eventually works.\" - Michael Hartung'
 ];
 
 const security = [
