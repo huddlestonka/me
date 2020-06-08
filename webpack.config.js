@@ -3,8 +3,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
   entry: {
-    main: './src/index.js'
-    //quotes: './src/MockData/Quotes.js'
+    main: './src/index.js',
+    quotes: './src/MockData/Quotes.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
