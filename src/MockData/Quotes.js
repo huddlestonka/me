@@ -20,7 +20,6 @@ const programming = [
 
 const predictions = [
     '\"The problem of viruses is temporary and will be solved in two years.\" - John McAfee, 1988',
-    '\"In 2031, lawyers will be commonly a part of most development teams.\" - Grady Booch',
     '\"I see little commercial potential for the Internet for at least ten years.\" - Bill Gates, 1994',
     '\"Hardware eventually fails. Software eventually works.\" - Michael Hartung'
 ];
